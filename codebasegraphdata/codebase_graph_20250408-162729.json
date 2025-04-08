@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "timestamp": "20250408-162729",
+    "generated_at": "2025-04-08T16:27:29.453382",
+    "root_directory": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize",
+    "file_count": 2,
+    "node_count": 17,
+    "edge_count": 15,
+    "scan_time_seconds": 0.014113,
+    "aws_resources_detected": 0,
+    "api_routes_detected": 0,
+    "generator_version": "1.2.0",
+    "generator_command": "codebase_analyzer.py --root-dir C:\\Users\\Ivan\\Desktop\\CodebaseVisualize"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "type": "file",
+        "meta": {
+          "name": "codebase_analyzer.py",
+          "path": "codebase_analyzer.py",
+          "size": 42337,
+          "extension": ".py",
+          "last_modified": "2025-04-08T16:17:27.899206"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::add_node",
+        "type": "function",
+        "meta": {
+          "name": "add_node"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::add_edge",
+        "type": "function",
+        "meta": {
+          "name": "add_edge"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::parse_serverless_config",
+        "type": "function",
+        "meta": {
+          "name": "parse_serverless_config"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_aws_resource_references",
+        "type": "function",
+        "meta": {
+          "name": "find_aws_resource_references"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::get_file_type",
+        "type": "function",
+        "meta": {
+          "name": "get_file_type"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::extract_imports",
+        "type": "function",
+        "meta": {
+          "name": "extract_imports"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_react_components",
+        "type": "function",
+        "meta": {
+          "name": "find_react_components"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_functions",
+        "type": "function",
+        "meta": {
+          "name": "find_functions"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::extract_dependencies",
+        "type": "function",
+        "meta": {
+          "name": "extract_dependencies"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::scan_codebase",
+        "type": "function",
+        "meta": {
+          "name": "scan_codebase"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::analyze_graph",
+        "type": "function",
+        "meta": {
+          "name": "analyze_graph"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::create_network_graph",
+        "type": "function",
+        "meta": {
+          "name": "create_network_graph"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::get_node_category",
+        "type": "function",
+        "meta": {
+          "name": "get_node_category"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::visualize_graph",
+        "type": "function",
+        "meta": {
+          "name": "visualize_graph"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::main",
+        "type": "function",
+        "meta": {
+          "name": "main"
+        }
+      },
+      {
+        "id": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\README.md",
+        "type": "file",
+        "meta": {
+          "name": "README.md",
+          "path": "README.md",
+          "size": 6471,
+          "extension": ".md",
+          "last_modified": "2025-04-08T16:18:20.984132"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::add_node",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::add_edge",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::parse_serverless_config",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_aws_resource_references",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::get_file_type",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::extract_imports",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_react_components",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::find_functions",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::extract_dependencies",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::scan_codebase",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::analyze_graph",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::create_network_graph",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::get_node_category",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::visualize_graph",
+        "relationship": "contains"
+      },
+      {
+        "from": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py",
+        "to": "C:\\Users\\Ivan\\Desktop\\CodebaseVisualize\\codebase_analyzer.py::main",
+        "relationship": "contains"
+      }
+    ]
+  },
+  "stats": {
+    "total_files": 2,
+    "by_type": {
+      "file": 2,
+      "function": 15
+    },
+    "by_extension": {
+      ".py": 1,
+      ".md": 1
+    },
+    "largest_files": [
+      [
+        "codebase_analyzer.py",
+        42337
+      ],
+      [
+        "README.md",
+        6471
+      ]
+    ]
+  }
+}
