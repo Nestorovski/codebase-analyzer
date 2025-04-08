@@ -2,6 +2,8 @@
 
 Codebase Analyzer is a tool to analyze and visualize the structure of any codebase. It generates an interactive graph to explore file relationships and provides detailed analysis metrics.
 
+![Codebase Analyzer Screenshot](Example.jpg)
+
 ## Features
 
 - Supports multiple programming languages.
