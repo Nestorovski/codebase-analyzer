@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Realestatimator Codebase Analyzer
+Codebase Analyzer
 
 This script analyzes a codebase to:
 1. Generate a JSON representation of file relationships
